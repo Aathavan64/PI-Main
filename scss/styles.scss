@@ -1,0 +1,80 @@
+body {
+    .immersiveImage {
+         filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    }
+}
+
+.case h2,
+.signUpNewsLetter {
+    font-family: 'Special Elite', cursive;
+    color: red;
+}
+
+.gameCount {
+    font-family: 'Special Elite', cursive;
+}
+
+.gameCount--detective {
+    .number,
+    .title {
+        color: red !important;
+    }
+}
+
+.dividerSection {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, transparent 0%, rgba(16,16,16,1) 50%, transparent 100%);
+    background: transparent;
+ .column {
+     margin-bottom: 0;
+ }   
+}
+
+.blogPage {
+    padding-left: 0 !important;
+}
+
+#Top_bar .top_bar_right {
+    height: initial;
+    display: flex;
+}
+
+#Top_bar {
+    top: 0px;
+}
+
+#Top_bar .menu > li > a,
+#Top_bar #logo {
+    padding: 0;
+}
+
+.countInfo {
+    .column {
+        margin-bottom: 0px;
+    }
+
+    .title {
+        margin-bottom: 0;
+    }
+}
+
+body.header-creative.header-open {
+    padding-left: 0px;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .body {
+        margin-top: 60px;
+        flex-grow: 1;
+    }
+}
